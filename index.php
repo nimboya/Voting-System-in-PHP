@@ -1,4 +1,9 @@
 <?php 
+/*
+For Complaints or Comments
+Phone: 08066194746
+Email: boya360@yahoo.com
+*/
 require "dbconfig.php";
 $totalinvalid = mysql_fetch_array(mysql_query("SELECT COUNT(*) total FROM votes WHERE vote = ''")) or die(mysql_error());
 $total = mysql_fetch_array(mysql_query("SELECT COUNT(*) total FROM votes")) or die(mysql_error());
